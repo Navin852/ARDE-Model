@@ -1,0 +1,22 @@
+# Configuration file for ARDE Model
+
+# Folder where user will put downloaded / raw rainfall data
+data_dir: "D:\\ARDE-Model-main\\data"
+
+# Folder where processed results, plots, and outputs will be saved
+output_dir: "D:\\ARDE-Model-main\\output"
+
+# Station details (optional, can be changed by user)
+station_name: "Roorkee"
+lat: 29.88
+lon: 77.8975
+
+# Date range for data extraction
+start_date: "2024-01-01"
+end_date: "2024-12-31"
+
+# CDS API credentials
+cds_url: "https://cds.climate.copernicus.eu/api"
+cds_key: "ea735c4e-d67d-481c-a32f-630a0afa9ba9"
+
+gee_project_id: "solid-altar-454711-g3"
