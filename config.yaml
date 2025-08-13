@@ -17,6 +17,7 @@ end_date: "2024-12-31"
 
 # CDS API credentials
 cds_url: "https://cds.climate.copernicus.eu/api"
-cds_key: "ea735c4e-d67d-481c-a32f-630a0afa9ba9"
+cds_key: "enter-the-key"
 
-gee_project_id: "solid-altar-454711-g3"
+gee_project_id: "enter-the-project-ID"
+
