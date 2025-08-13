@@ -44,7 +44,7 @@ pip install -r requirements.txt
 ```
 # 📂 Data Placement
 - `config.yaml` → Place in the root folder of the repository.
-This file stores station metadata, coordinates, date ranges, and data directories.
+This file stores station metadata, coordinates, date ranges data directories, and Authendication credentials.
 - **Raw NWIC CSV** → also place in the repo root, named e.g. `Rainfall_Murappanadu.csv`.
 Example `config.yaml`:
 ```yaml
@@ -55,6 +55,10 @@ start_date: "2022-01-01"
 end_date: "2024-12-31"
 data_dir: ./data         # ARDE will create subfolders like ./data/NWIC
 output_dir: ./results    # used by other modules
+cds_url: "https://cds.climate.copernicus.eu/api"
+cds_key: "enter-the-key"
+gee_project_id: "enter-your-project-ID"
+
 ```
 
 # ▶️ Run ARDE Model
