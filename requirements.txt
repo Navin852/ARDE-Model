@@ -1,0 +1,12 @@
+imdlib
+rioxarray
+netCDF4
+pycrs
+earthaccess
+localtileserver
+cdsapi
+xarray
+cfgrib
+eccodes
+attrs
+earthengine-api
