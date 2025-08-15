@@ -1,4 +1,4 @@
-# ARDE Model – Automated Rainfall Data Extraction Model
+# ARDE Model – Automated Rainfall Data Evaluation Model
 The ARDE Model (Automated Rainfall Data Extraction Model) is a Python-based pipeline that automates the downloading, processing, and comparison of rainfall data from multiple sources, including:
 
 - **NWIC** (Standard Rain Gauge)
