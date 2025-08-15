@@ -81,9 +81,20 @@ gee_project_id: "enter-your-project-ID"
 
 - Submodules (ERA5/CHIRPS/IMERG) write into `<data_dir>/<source>/` consistently.
 
+
 # ❓Troubleshooting
 - **File not found:** confirm config.yaml and raw NWIC CSV are in the repo root.
 
 - **Windows paths:** avoid spaces in folder names if possible; keep them quoted in YAML.
 
 - **Wrong station period:** check start_date/end_date in config.yaml.
+
+# ✅ Best Use Conditions & Future Enhancements
+- **Data Quality Dependency**
+Model accuracy is sensitive to rain gauge data completeness; excessive NA values reduce validation reliability and bias performance metrics.
+- **Single-Station Operation**
+Currently restricted to one station per run; batch processing for multiple stations is not yet supported.
+- **Storage and Memory Requirements**
+Large reanalysis/satellite datasets (GBs per year) may exceed low storage or RAM capacity during processing.
+
+ARDE works best when NWIC station data is complete with minimal missing values, the system has sufficient computing resources, and external API services are available. With future updates, support for multi-station runs, faster performance, and advanced error metrics could overcome current limitations
