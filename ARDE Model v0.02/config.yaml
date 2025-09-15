@@ -1,0 +1,23 @@
+# Configuration file for ARDE Model
+
+# Folder where user will put downloaded / raw rainfall data
+data_dir: "E:\\ARDE Model 0.02\\data_Murappanadu\\data"
+
+# Folder where processed results, plots, and outputs will be saved
+output_dir: "E:\\ARDE Model 0.02\\data_Murappanadu\\output"
+
+# Station details (optional, can be changed by user)
+station_name: "Murappanadu"
+lat: 8.7144
+lon: 77.835
+
+# Date range for data extraction
+start_date: "2024-01-01"
+end_date: "2024-12-31"
+
+# CDS API credentials
+cds_url: "https://cds.climate.copernicus.eu/api"
+cds_key: "CDS API Key"
+
+gee_project_id: "Project-ID"
+
